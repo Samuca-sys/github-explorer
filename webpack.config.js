@@ -26,12 +26,18 @@ module.exports = {
   ],
   module: {
     //regras para conversao
-    //se .jsx, excluir node_modules converter usando babel
+    //se .jsx, excluir node_modules e converter usando babel
+    //se .css, excluir node_modules e converter usando style e css 
     rules: [
       {
         test: /\.jsx$/,
         exclude: /node_modules/,
         use: 'babel-loader',
+      },
+      {
+        test: /\.css$/,
+        exclude: /node_modules/,
+        use: ['style-loader', 'css-loader'],
       }
     ],
   }
