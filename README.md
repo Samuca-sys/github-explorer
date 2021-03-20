@@ -27,7 +27,7 @@
 - [:closed_book: License](#closed_book-license)
 
 ## :one: About
-Web app to search for RocketSeat repositories by github acess made for the fist chapter of [RocketSeat Ignite](https://rocketseat.com.br/)
+Web app to search for RocketSeat repositories by github acess made for the first chapter of [RocketSeat Ignite](https://rocketseat.com.br/)
 
 
 ## :two: Technologies
